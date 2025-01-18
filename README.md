@@ -1,4 +1,4 @@
-# srsRAN_SDR_dataset
+# OTA_dataset_5G_srsRAN
  
 This repository contains the over-the-air throughput and received signal strength measurements dataset generated for the paper:
  
