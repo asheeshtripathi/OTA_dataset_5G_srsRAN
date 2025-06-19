@@ -1,8 +1,14 @@
-# OTA_dataset_5G_srsRAN
+# OTA_dataset_5G_srsRAN  
+[![IEEE Paper](https://img.shields.io/badge/IEEE%20WCNC%202025-Paper-blue)](https://doi.org/10.1109/WCNC61545.2025.10978285)
+
  
-This repository contains the over-the-air throughput and received signal strength measurements dataset generated for the paper:
- 
-**A. Tripathi, F. Bashar, M. R. Chowdhury, A. Da Silva and S. F. Midkiff, "Benchmarking Software Defined Radio Based 5G Deployments With srsRAN: Lessons Learned," 2025 IEEE Wireless Communications and Networking Conference (WCNC), Milan, Italy, 2025, pp. 1-6, doi: 10.1109/WCNC61545.2025.10978285.**  
+This repository contains the over-the-air throughput and received signal strength measurements collected and analyzed for the following paper:
+
+**A. Tripathi, F. Bashar, M. R. Chowdhury, A. Da Silva and S. F. Midkiff,  
+"Benchmarking Software Defined Radio Based 5G Deployments With srsRAN: Lessons Learned,"  
+2025 IEEE Wireless Communications and Networking Conference (WCNC), Milan, Italy, 2025, pp. 1-6.**  
+[https://doi.org/10.1109/WCNC61545.2025.10978285](https://doi.org/10.1109/WCNC61545.2025.10978285)
+
   
 
 The dataset was collected using various USRP (Universal Software Radio Peripheral) devices under different transmission modes and configurations. It is structured into multiple folders and files for easy navigation and understanding.
@@ -65,6 +71,20 @@ For example, a file named `X310_Scenario-1_1_10_UL.csv` represents the following
  
 - **usrp_rssi_data_organized.csv**: This file contains the final received signal strength(as measured by COTS UE) measurements. The RSSI values are organized for easy analysis and comparison across different devices and scenarios.
 - **final_performance_evaluations.csv**: This file includes the final combined measurements used to generate the graphs presented in the paper. These performance evaluations were derived from the data collected under the various configurations and scenarios.
+
+The summary of final OTA throughput performance and received signal strength with varying distances is visualized in the graphs below.
+
+📌 **These figures are directly adapted from the results presented in our WCNC 2025 paper**  
+(see full citation at the top or in the Citation section below for details on the experiment design and analysis).
+
+### 📈 Throughput vs Distance
+![image](https://github.com/user-attachments/assets/95775470-2785-4547-b089-587b4b2b81e4)
+
+### 📉 Signal Strength vs Distance
+![image](https://github.com/user-attachments/assets/7aabd209-cf72-4429-8290-0a8adc8f0069)
+
+
+  
  
 ## How to Use This Repository
  
@@ -96,12 +116,14 @@ Where:
 - **UL or DL** refers to whether the data was collected during uplink or downlink transmission mode.
  
 ## Citation
- 
+
 If you use this dataset in your research or projects, please cite the following paper:
- 
- 
-A. Tripathi, F. Bashar, M. R. Chowdhury, A. Da Silva and S. F. Midkiff, "Benchmarking Software Defined Radio Based 5G Deployments With srsRAN: Lessons Learned," 2025 IEEE Wireless Communications and Networking Conference (WCNC), Milan, Italy, 2025, pp. 1-6, doi: 10.1109/WCNC61545.2025.10978285.
- 
+
+> A. Tripathi, F. Bashar, M. R. Chowdhury, A. Da Silva and S. F. Midkiff,  
+> "**Benchmarking Software Defined Radio Based 5G Deployments With srsRAN: Lessons Learned**,"  
+> *2025 IEEE Wireless Communications and Networking Conference (WCNC)*, Milan, Italy, 2025, pp. 1–6.  
+> [https://doi.org/10.1109/WCNC61545.2025.10978285](https://doi.org/10.1109/WCNC61545.2025.10978285)
+
 
 ## Contact
  
@@ -111,4 +133,5 @@ For further information or inquiries regarding the dataset, please contact the a
 - **Fahim Bashar**: fahimbashar@vt.edu
 ---
  
-We hope this dataset helps you in your research on benchmarking Software Defined Radio (SDR) systems, specifically for 5G deployments.
+We hope this dataset and the paper supports your research on benchmarking Software Defined Radio (SDR) systems, particularly in the context of 5G deployments. This dataset is intended for use in O-RAN-based machine learning model training, leveraging over-the-air (OTA) throughput and received signal strength metrics collected from a real-world 5G indoor deployment. Potential use cases include digital twins, intelligent resource allocation, QoS/QoE optimization, load balancing, and other RAN-level decision-making tasks.
+
