@@ -2,7 +2,7 @@
 [![IEEE Paper](https://img.shields.io/badge/IEEE%20WCNC%202025-Paper-blue)](https://doi.org/10.1109/WCNC61545.2025.10978285)
 
  
-This repository contains the over-the-air throughput and received signal strength measurements collected and analyzed for the following paper:
+This repository contains the indoor over-the-air throughput and received signal strength measurements collected and analyzed for the following paper:
 
 **A. Tripathi, F. Bashar, M. R. Chowdhury, A. Da Silva and S. F. Midkiff,  
 "Benchmarking Software Defined Radio Based 5G Deployments With srsRAN: Lessons Learned,"  
